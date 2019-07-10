@@ -17,14 +17,14 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 5,
+          "tid": 7,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 1,
+          "tid": 19,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
@@ -120,6 +120,36 @@
       ],
       "season": 2020,
       "eid": 5
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/DEN/2020\">Nuggets</a> traded <a href=\"/l/137/player/105\">Paul Millsap</a>, <a href=\"/l/137/player/587\">Juan Hernangomez</a>, <a href=\"/l/137/player/630\">Michael Porter</a>, a 2022 2nd round pick (DEN), and a 2023 2nd round pick (DEN) to the <a href=\"/l/137/roster/OKC/2020\">Thunder</a> for <a href=\"/l/137/player/403\">Russell Westbrook</a>.",
+      "pids": [
+        105,
+        587,
+        630,
+        403
+      ],
+      "tids": [
+        7,
+        20
+      ],
+      "season": 2020,
+      "eid": 6
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/DEN/2020\">Nuggets</a> traded <a href=\"/l/137/player/123\">Mason Plumlee</a> and a 2023 1st round pick (DEN) to the <a href=\"/l/137/roster/NYK/2020\">Knicks</a> for <a href=\"/l/137/player/126\">Brook Lopez</a>.",
+      "pids": [
+        123,
+        126
+      ],
+      "tids": [
+        7,
+        19
+      ],
+      "season": 2020,
+      "eid": 7
     }
   ],
   "teams": [
@@ -5482,7 +5512,7 @@
     },
     {
       "key": "userTid",
-      "value": 5
+      "value": 7
     },
     {
       "key": "userTids",
@@ -6602,7 +6632,7 @@
       "dpid": 134
     },
     {
-      "tid": 7,
+      "tid": 20,
       "originalTid": 7,
       "round": 2,
       "pick": 0,
@@ -7074,7 +7104,7 @@
       "dpid": 193
     },
     {
-      "tid": 7,
+      "tid": 19,
       "originalTid": 7,
       "round": 1,
       "pick": 0,
@@ -7082,7 +7112,7 @@
       "dpid": 194
     },
     {
-      "tid": 7,
+      "tid": 20,
       "originalTid": 7,
       "round": 2,
       "pick": 0,
@@ -22454,7 +22484,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 8,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -23718,7 +23748,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 1,
+      "rosterOrder": 2,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -28775,7 +28805,7 @@
       "pid": 104
     },
     {
-      "tid": 7,
+      "tid": 20,
       "name": "Paul Millsap",
       "ratings": [
         {
@@ -28977,10 +29007,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        7
+        7,
+        20
       ],
       "firstName": "Paul",
       "lastName": "Millsap",
@@ -32340,7 +32415,7 @@
       "pid": 122
     },
     {
-      "tid": 7,
+      "tid": 19,
       "name": "Mason Plumlee",
       "ratings": [
         {
@@ -32546,10 +32621,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 19,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        7
+        7,
+        19
       ],
       "firstName": "Mason",
       "lastName": "Plumlee",
@@ -32941,7 +33061,7 @@
       "pid": 125
     },
     {
-      "tid": 19,
+      "tid": 7,
       "name": "Brook Lopez",
       "ratings": [
         {
@@ -33187,11 +33307,56 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 7,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
         16,
-        19
+        19,
+        7
       ],
       "firstName": "Brook",
       "lastName": "Lopez",
@@ -70816,7 +70981,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 7,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -86320,7 +86485,7 @@
       "pid": 402
     },
     {
-      "tid": 20,
+      "tid": 7,
       "name": "Russell Westbrook",
       "ratings": [
         {
@@ -86538,10 +86703,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 7,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        20
+        20,
+        7
       ],
       "firstName": "Russell",
       "lastName": "Westbrook",
@@ -97845,7 +98055,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 15,
+      "rosterOrder": 13,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -98499,7 +98709,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 2,
+      "rosterOrder": 6,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -107331,7 +107541,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 14,
+      "rosterOrder": 12,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -122370,7 +122580,7 @@
       "pid": 586
     },
     {
-      "tid": 7,
+      "tid": 20,
       "name": "Juan Hernangomez",
       "ratings": [
         {
@@ -122568,10 +122778,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        7
+        7,
+        20
       ],
       "firstName": "Juan",
       "lastName": "Hernangomez",
@@ -126888,7 +127143,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 12,
+      "rosterOrder": 10,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -130778,7 +131033,7 @@
       "pid": 629
     },
     {
-      "tid": 7,
+      "tid": 20,
       "name": "Michael Porter",
       "ratings": [
         {
@@ -130978,10 +131233,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        7
+        7,
+        20
       ],
       "firstName": "Michael",
       "lastName": "Porter",
@@ -146254,7 +146554,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 13,
+      "rosterOrder": 11,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -151089,7 +151389,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 11,
+      "rosterOrder": 9,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -161490,7 +161790,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 4,
+      "rosterOrder": 3,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
