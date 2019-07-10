@@ -17,21 +17,15 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 18,
-          "pids": [
-            416,
-            524,
-            739
-          ],
+          "tid": 9,
+          "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 20,
-          "pids": [
-            396
-          ],
+          "tid": 18,
+          "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
@@ -79,6 +73,20 @@
       ],
       "season": 2020,
       "eid": 2
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/NOP/2020\">Pelicans</a> traded <a href=\"/l/137/player/193\">Kenrich Williams</a>, a 2020 2nd round pick (MIL), and a 2020 2nd round pick (NOP) to the <a href=\"/l/137/roster/CHA/2020\">Hornets</a> for <a href=\"/l/137/player/773\">Willy Hernangomez</a>.",
+      "pids": [
+        193,
+        773
+      ],
+      "tids": [
+        18,
+        3
+      ],
+      "season": 2020,
+      "eid": 3
     }
   ],
   "teams": [
@@ -5348,7 +5356,7 @@
     },
     {
       "key": "minPayroll",
-      "value": 92000
+      "value": 50000
     },
     {
       "key": "minRosterSize",
@@ -5405,7 +5413,7 @@
     },
     {
       "key": "salaryCap",
-      "value": 105000
+      "value": 110000
     },
     {
       "key": "season",
@@ -5441,7 +5449,7 @@
     },
     {
       "key": "userTid",
-      "value": 18
+      "value": 9
     },
     {
       "key": "userTids",
@@ -5745,7 +5753,7 @@
       "dpid": 32
     },
     {
-      "tid": 18,
+      "tid": 3,
       "originalTid": 16,
       "round": 2,
       "pick": 0,
@@ -5777,7 +5785,7 @@
       "dpid": 36
     },
     {
-      "tid": 18,
+      "tid": 3,
       "originalTid": 18,
       "round": 2,
       "pick": 0,
@@ -9733,7 +9741,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 9,
+      "rosterOrder": 10,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -15961,7 +15969,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 17,
+      "rosterOrder": 16,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -19274,7 +19282,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 10,
+      "rosterOrder": 11,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -27216,7 +27224,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 11,
+      "rosterOrder": 12,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -33250,7 +33258,7 @@
       "pid": 127
     },
     {
-      "tid": 9,
+      "tid": -1,
       "name": "Shaun Livingston",
       "ratings": [
         {
@@ -45636,7 +45644,7 @@
       "pid": 192
     },
     {
-      "tid": 18,
+      "tid": 3,
       "name": "Kenrich Williams",
       "ratings": [
         {
@@ -45827,10 +45835,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 3,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        18
+        18,
+        3
       ],
       "firstName": "Kenrich",
       "lastName": "Williams",
@@ -63718,7 +63771,7 @@
           "tp": 61,
           "diq": 28,
           "oiq": 50,
-          "drb": 73,
+          "drb": 83,
           "pss": 46,
           "reb": 22,
           "season": 2020,
@@ -63727,8 +63780,8 @@
             "3",
             "B"
           ],
-          "ovr": 54,
-          "pot": 54,
+          "ovr": 55,
+          "pot": 55,
           "pos": "G"
         }
       ],
@@ -63869,11 +63922,11 @@
       "statsTids": [],
       "firstName": "Jamal",
       "lastName": "Crawford",
-      "value": 43.2,
-      "valueNoPot": 54,
-      "valueFuzz": 43.2,
-      "valueNoPotFuzz": 54,
-      "valueWithContract": 43.2,
+      "value": 44,
+      "valueNoPot": 55,
+      "valueFuzz": 44,
+      "valueNoPotFuzz": 55,
+      "valueWithContract": 44,
       "salaries": [],
       "relatives": [],
       "pid": 288
@@ -67311,8 +67364,8 @@
           "ins": 46,
           "dnk": 72,
           "ft": 46,
-          "fg": 73,
-          "tp": 68,
+          "fg": 70,
+          "tp": 65,
           "diq": 45,
           "oiq": 70,
           "drb": 66,
@@ -67324,8 +67377,8 @@
             "3",
             "Ps"
           ],
-          "ovr": 68,
-          "pot": 77,
+          "ovr": 67,
+          "pot": 76,
           "pos": "SG"
         }
       ],
@@ -67505,11 +67558,11 @@
       ],
       "firstName": "Luka",
       "lastName": "Doncic",
-      "value": 73.4,
-      "valueNoPot": 68,
-      "valueFuzz": 73.4,
-      "valueNoPotFuzz": 68,
-      "valueWithContract": 73.4,
+      "value": 72.4,
+      "valueNoPot": 67,
+      "valueFuzz": 72.4,
+      "valueNoPotFuzz": 67,
+      "valueWithContract": 72.4,
       "salaries": [
         {
           "season": 2020,
@@ -79087,7 +79140,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 12,
+      "rosterOrder": 13,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -111100,17 +111153,19 @@
           "dnk": 86,
           "ft": 62,
           "fg": 73,
-          "tp": 52,
-          "diq": 30,
-          "oiq": 45,
+          "tp": 64,
+          "diq": 33,
+          "oiq": 46,
           "drb": 65,
           "pss": 30,
           "reb": 57,
           "season": 2020,
           "fuzz": 0.6094365456537574,
-          "skills": [],
-          "ovr": 53,
-          "pot": 65,
+          "skills": [
+            "3"
+          ],
+          "ovr": 55,
+          "pot": 69,
           "pos": "PG"
         }
       ],
@@ -111285,11 +111340,11 @@
       ],
       "firstName": "Collin",
       "lastName": "Sexton",
-      "value": 60.2,
-      "valueNoPot": 53,
-      "valueFuzz": 60.2,
-      "valueNoPotFuzz": 53,
-      "valueWithContract": 60.2,
+      "value": 63.4,
+      "valueNoPot": 55,
+      "valueFuzz": 63.4,
+      "valueNoPotFuzz": 55,
+      "valueWithContract": 63.4,
       "salaries": [
         {
           "season": 2020,
@@ -151491,7 +151546,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 13,
+      "rosterOrder": 14,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -157954,7 +158009,7 @@
       "pid": 772
     },
     {
-      "tid": 3,
+      "tid": 18,
       "name": "Willy Hernangomez",
       "ratings": [
         {
@@ -158108,7 +158163,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 5,
+      "rosterOrder": 9,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -158155,10 +158210,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 18,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        3
+        3,
+        18
       ],
       "firstName": "Willy",
       "lastName": "Hernangomez",
@@ -159971,7 +160071,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 16,
+      "rosterOrder": 15,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
