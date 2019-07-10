@@ -17,14 +17,14 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 19,
+          "tid": 5,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 16,
+          "tid": 1,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
@@ -105,6 +105,21 @@
       ],
       "season": 2020,
       "eid": 4
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/CLE/2020\">Cavaliers</a> traded <a href=\"/l/137/player/166\">Tristan Thompson</a>, <a href=\"/l/137/player/337\">Brandon Knight</a>, a 2020 2nd round pick (UTA), and a 2023 2nd round pick (CLE) to the <a href=\"/l/137/roster/BOS/2020\">Celtics</a> for <a href=\"/l/137/player/526\">Gordon Hayward</a>.",
+      "pids": [
+        166,
+        337,
+        526
+      ],
+      "tids": [
+        5,
+        1
+      ],
+      "season": 2020,
+      "eid": 5
     }
   ],
   "teams": [
@@ -5467,7 +5482,7 @@
     },
     {
       "key": "userTid",
-      "value": 19
+      "value": 5
     },
     {
       "key": "userTids",
@@ -5963,7 +5978,7 @@
       "dpid": 56
     },
     {
-      "tid": 5,
+      "tid": 1,
       "originalTid": 28,
       "round": 2,
       "pick": 0,
@@ -7035,7 +7050,7 @@
       "dpid": 190
     },
     {
-      "tid": 5,
+      "tid": 1,
       "originalTid": 5,
       "round": 2,
       "pick": 0,
@@ -40840,7 +40855,7 @@
       "pid": 165
     },
     {
-      "tid": 5,
+      "tid": 1,
       "name": "Tristan Thompson",
       "ratings": [
         {
@@ -41036,10 +41051,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 1,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        5
+        5,
+        1
       ],
       "firstName": "Tristan",
       "lastName": "Thompson",
@@ -73463,7 +73523,7 @@
       "pid": 336
     },
     {
-      "tid": 5,
+      "tid": 1,
       "name": "Brandon Knight",
       "pos": "G",
       "hgt": 75,
@@ -73656,10 +73716,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 1,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        5
+        5,
+        1
       ],
       "firstName": "Brandon",
       "lastName": "Knight",
@@ -110791,7 +110896,7 @@
       "pid": 525
     },
     {
-      "tid": 1,
+      "tid": 5,
       "name": "Gordon Hayward",
       "ratings": [
         {
@@ -110984,10 +111089,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        1
+        1,
+        5
       ],
       "firstName": "Gordon",
       "lastName": "Hayward",
