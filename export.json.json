@@ -5512,7 +5512,7 @@
     },
     {
       "key": "userTid",
-      "value": 7
+      "value": 0
     },
     {
       "key": "userTids",
@@ -25982,7 +25982,7 @@
       "pid": 90
     },
     {
-      "tid": -1,
+      "tid": 0,
       "name": "Jabari Parker",
       "ratings": [
         {
@@ -25999,13 +25999,13 @@
           "diq": 30,
           "oiq": 49,
           "drb": 48,
-          "pss": 39,
-          "reb": 51,
+          "pss": 48,
+          "reb": 69,
           "season": 2020,
           "fuzz": -3.223648589077304,
           "skills": [],
-          "ovr": 58,
-          "pot": 60,
+          "ovr": 59,
+          "pot": 62,
           "pos": "F"
         }
       ],
@@ -26018,8 +26018,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203953.png",
       "contract": {
-        "amount": 12000,
-        "exp": 2020
+        "amount": 13000,
+        "exp": 2021
       },
       "draft": {
         "round": 1,
@@ -26126,18 +26126,65 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 0,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        0
+      ],
       "firstName": "Jabari",
       "lastName": "Parker",
-      "value": 58.400000000000006,
-      "valueNoPot": 58,
-      "valueFuzz": 58.400000000000006,
-      "valueNoPotFuzz": 58,
-      "valueWithContract": 58.400000000000006,
+      "value": 59.6,
+      "valueNoPot": 59,
+      "valueFuzz": 59.6,
+      "valueNoPotFuzz": 59,
+      "valueWithContract": 59.6,
       "salaries": [],
       "relatives": [],
       "pid": 91
@@ -56051,7 +56098,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 9,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -92508,7 +92555,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 7,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -93752,7 +93799,7 @@
           "oiq": 56,
           "drb": 36,
           "pss": 34,
-          "reb": 64,
+          "reb": 69,
           "season": 2020,
           "fuzz": -1.0179173224849363,
           "skills": [
@@ -93760,8 +93807,8 @@
             "Po",
             "R"
           ],
-          "ovr": 54,
-          "pot": 56,
+          "ovr": 55,
+          "pot": 57,
           "pos": "C"
         }
       ],
@@ -93936,11 +93983,11 @@
       ],
       "firstName": "Alex",
       "lastName": "Len",
-      "value": 54.2,
-      "valueNoPot": 54,
-      "valueFuzz": 54.2,
-      "valueNoPotFuzz": 54,
-      "valueWithContract": 54.2,
+      "value": 55.2,
+      "valueNoPot": 55,
+      "valueFuzz": 55.2,
+      "valueNoPotFuzz": 55,
+      "valueWithContract": 55.2,
       "salaries": [
         {
           "season": 2020,
@@ -129053,7 +129100,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 5,
+      "rosterOrder": 6,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -147749,7 +147796,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 2,
+      "rosterOrder": 5,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -161241,7 +161288,7 @@
       "hof": false,
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 8,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
@@ -166586,7 +166633,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 16,
+      "rosterOrder": 13,
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
