@@ -1,12 +1,10 @@
 ﻿{
   "version": 32,
   "meta": {
-    "phaseText": "2020 preseason",
+    "phaseText": "2020 regular season",
     "name": "BGML"
   },
-  "releasedPlayers": [],
   "awards": [],
-  "schedule": [],
   "playoffSeries": [],
   "negotiations": [],
   "draftLotteryResults": [],
@@ -17,20 +15,69 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 7,
+          "tid": 18,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 19,
-          "pids": [],
+          "tid": 0,
+          "pids": [
+            717
+          ],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         }
       ]
+    }
+  ],
+  "releasedPlayers": [
+    {
+      "pid": 514,
+      "tid": 20,
+      "contract": {
+        "amount": 5700,
+        "exp": 2020
+      },
+      "rid": 0
+    },
+    {
+      "pid": 720,
+      "tid": 20,
+      "contract": {
+        "amount": 900,
+        "exp": 2020
+      },
+      "rid": 1
+    },
+    {
+      "pid": 467,
+      "tid": 10,
+      "contract": {
+        "amount": 1430,
+        "exp": 2020
+      },
+      "rid": 2
+    },
+    {
+      "pid": 772,
+      "tid": 10,
+      "contract": {
+        "amount": 1430,
+        "exp": 2021
+      },
+      "rid": 3
+    },
+    {
+      "pid": 369,
+      "tid": 10,
+      "contract": {
+        "amount": 1430,
+        "exp": 2020
+      },
+      "rid": 4
     }
   ],
   "events": [
@@ -150,6 +197,132 @@
       ],
       "season": 2020,
       "eid": 7
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/OKC/2020\">Thunder</a> traded <a href=\"/l/137/player/396\">Steven Adams</a> to the <a href=\"/l/137/roster/SAS/2020\">Spurs</a> for <a href=\"/l/137/player/492\">Patty Mills</a>, <a href=\"/l/137/player/493\">Marco Belinelli</a>, and <a href=\"/l/137/player/650\">Lonnie Walker IV</a>.",
+      "pids": [
+        396,
+        492,
+        493,
+        650
+      ],
+      "tids": [
+        20,
+        26
+      ],
+      "season": 2020,
+      "eid": 8
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/137/roster/OKC/2020\">Thunder</a> released <a href=\"/l/137/player/514\">Patrick Patterson</a>.",
+      "pids": [
+        514
+      ],
+      "tids": [
+        20
+      ],
+      "season": 2020,
+      "eid": 9
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/137/roster/OKC/2020\">Thunder</a> released <a href=\"/l/137/player/720\">Donte Grantham</a>.",
+      "pids": [
+        720
+      ],
+      "tids": [
+        20
+      ],
+      "season": 2020,
+      "eid": 10
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/137/roster/HOU/2020\">Rockets</a> released <a href=\"/l/137/player/467\">Michael Frazier</a>.",
+      "pids": [
+        467
+      ],
+      "tids": [
+        10
+      ],
+      "season": 2020,
+      "eid": 11
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/137/roster/HOU/2020\">Rockets</a> released <a href=\"/l/137/player/772\">Gary Clark</a>.",
+      "pids": [
+        772
+      ],
+      "tids": [
+        10
+      ],
+      "season": 2020,
+      "eid": 12
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/137/roster/HOU/2020\">Rockets</a> released <a href=\"/l/137/player/369\">Chris Chiozza</a>.",
+      "pids": [
+        369
+      ],
+      "tids": [
+        10
+      ],
+      "season": 2020,
+      "eid": 13
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/ATL/2020\">Hawks</a> traded <a href=\"/l/137/player/432\">Evan Turner</a>, <a href=\"/l/137/player/439\">Alex Len</a>, and a 2021 2nd round pick (CLE) to the <a href=\"/l/137/roster/POR/2020\">Trailblazers</a> for <a href=\"/l/137/player/457\">C.J. McCollum</a>.",
+      "pids": [
+        432,
+        439,
+        457
+      ],
+      "tids": [
+        0,
+        24
+      ],
+      "season": 2020,
+      "eid": 14
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/GSW/2020\">Warriors</a> traded <a href=\"/l/137/player/232\">Stephen Curry</a>, <a href=\"/l/137/player/586\">Jacob Evans</a>, and <a href=\"/l/137/player/790\">Glenn Robinson III</a> to the <a href=\"/l/137/roster/MIL/2020\">Bucks</a> for <a href=\"/l/137/player/336\">Khris Middleton</a>, <a href=\"/l/137/player/447\">Eric Bledsoe</a>, and a 2021 1st round pick (MIL).",
+      "pids": [
+        232,
+        586,
+        790,
+        336,
+        447
+      ],
+      "tids": [
+        9,
+        16
+      ],
+      "season": 2020,
+      "eid": 15
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/137/roster/POR/2020\">Trailblazers</a> traded <a href=\"/l/137/player/462\">Damian Lillard</a> and <a href=\"/l/137/player/668\">Hassan Whiteside</a> to the <a href=\"/l/137/roster/TOR/2020\">Raptors</a> for <a href=\"/l/137/player/132\">Chris Boucher</a>, <a href=\"/l/137/player/313\">Marc Gasol</a>, <a href=\"/l/137/player/347\">Malcolm Miller</a>, <a href=\"/l/137/player/402\">Serge Ibaka</a>, and a 2021 1st round pick (TOR).",
+      "pids": [
+        462,
+        668,
+        132,
+        313,
+        347,
+        402
+      ],
+      "tids": [
+        24,
+        27
+      ],
+      "season": 2020,
+      "eid": 16
     }
   ],
   "teams": [
@@ -5464,7 +5637,7 @@
     },
     {
       "key": "phase",
-      "value": 0
+      "value": 1
     },
     {
       "key": "playersRefuseToNegotiate",
@@ -5512,7 +5685,7 @@
     },
     {
       "key": "userTid",
-      "value": 0
+      "value": 18
     },
     {
       "key": "userTids",
@@ -6120,7 +6293,7 @@
       "dpid": 70
     },
     {
-      "tid": 0,
+      "tid": 24,
       "originalTid": 5,
       "round": 2,
       "pick": 0,
@@ -6288,7 +6461,7 @@
       "dpid": 91
     },
     {
-      "tid": 16,
+      "tid": 9,
       "originalTid": 16,
       "round": 1,
       "pick": 0,
@@ -6464,7 +6637,7 @@
       "dpid": 113
     },
     {
-      "tid": 27,
+      "tid": 24,
       "originalTid": 27,
       "round": 1,
       "pick": 0,
@@ -17981,8 +18154,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626161.png",
       "contract": {
-        "amount": 6280,
-        "exp": 2020
+        "amount": 4000,
+        "exp": 2021
       },
       "draft": {
         "round": 1,
@@ -24043,8 +24216,8 @@
       },
       "college": "Bosnia and Herzegovina",
       "injury": {
-        "type": "Healthy",
-        "gamesRemaining": 0
+        "type": "Left Leg Injury",
+        "gamesRemaining": 40
       },
       "awards": [],
       "face": {
@@ -34301,7 +34474,7 @@
       "pid": 131
     },
     {
-      "tid": 27,
+      "tid": 24,
       "name": "Chris Boucher",
       "ratings": [
         {
@@ -34492,10 +34665,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        27
+        27,
+        24
       ],
       "firstName": "Chris",
       "lastName": "Boucher",
@@ -47300,7 +47518,7 @@
       "pid": 199
     },
     {
-      "tid": -1,
+      "tid": 12,
       "name": "JaMychal Green",
       "ratings": [
         {
@@ -47338,8 +47556,8 @@
       },
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203210.png",
       "contract": {
-        "amount": 7870,
-        "exp": 2020
+        "amount": 5000,
+        "exp": 2021
       },
       "draft": {
         "round": 0,
@@ -47449,8 +47667,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 12,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        12
+      ],
       "firstName": "JaMychal",
       "lastName": "Green",
       "value": 56,
@@ -53317,7 +53582,7 @@
       "pid": 231
     },
     {
-      "tid": 9,
+      "tid": 16,
       "name": "Stephen Curry",
       "ratings": [
         {
@@ -53537,10 +53802,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 16,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        9
+        9,
+        16
       ],
       "firstName": "Stephen",
       "lastName": "Curry",
@@ -59314,10 +59624,10 @@
           ],
           "ovr": 74,
           "pot": 74,
-          "pos": "PF"
+          "pos": "F"
         }
       ],
-      "pos": "PF",
+      "pos": "F",
       "hgt": 81,
       "weight": 220,
       "born": {
@@ -69021,7 +69331,7 @@
       "pid": 312
     },
     {
-      "tid": 27,
+      "tid": 24,
       "name": "Marc Gasol",
       "ratings": [
         {
@@ -69228,10 +69538,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        27
+        27,
+        24
       ],
       "firstName": "Marc",
       "lastName": "Gasol",
@@ -73503,7 +73858,7 @@
       "pid": 335
     },
     {
-      "tid": 16,
+      "tid": 9,
       "name": "Khris Middleton",
       "ratings": [
         {
@@ -73697,10 +74052,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 9,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        16
+        16,
+        9
       ],
       "firstName": "Khris",
       "lastName": "Middleton",
@@ -75739,7 +76139,7 @@
       "pid": 346
     },
     {
-      "tid": 27,
+      "tid": 24,
       "name": "Malcolm Miller",
       "ratings": [
         {
@@ -75932,10 +76332,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        27
+        27,
+        24
       ],
       "firstName": "Malcolm",
       "lastName": "Miller",
@@ -79993,7 +80438,7 @@
       "pid": 368
     },
     {
-      "tid": 10,
+      "tid": -1,
       "name": "Chris Chiozza",
       "ratings": [
         {
@@ -80029,8 +80474,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629185.png",
       "contract": {
-        "amount": 1430,
-        "exp": 2020
+        "amount": 900,
+        "exp": 2021
       },
       "draft": {
         "round": 0,
@@ -80102,36 +80547,36 @@
         "color": "#74453d"
       },
       "freeAgentMood": [
+        1.548172236358054,
+        0,
+        1.635129819324884,
         0,
         0,
+        0.8081083883759821,
         0,
+        1.9319990743031625,
+        0.8422844665045537,
+        0.9474830962626828,
+        0.37840565175920027,
+        0.9655573749812176,
+        0.012968114072078873,
+        0.8683283678208917,
+        0.28154944784852487,
+        1.642093255181796,
+        1.4478178399667045,
+        0.006367145918789396,
+        1.8701599440854122,
+        0.993307026227239,
+        1.7231097613822433,
         0,
+        0.694711298272652,
+        0.9018276746253324,
+        0.38680623429461214,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        0.7655914955105064,
+        1.4101628407536921,
+        1.2846549676316332,
+        1.0657737286214104
       ],
       "gamesUntilTradable": 0,
       "hof": false,
@@ -85043,7 +85488,7 @@
       "pid": 395
     },
     {
-      "tid": 20,
+      "tid": 26,
       "name": "Steven Adams",
       "ratings": [
         {
@@ -85240,10 +85685,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 26,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        20
+        20,
+        26
       ],
       "firstName": "Steven",
       "lastName": "Adams",
@@ -86305,7 +86795,7 @@
       "pid": 401
     },
     {
-      "tid": 27,
+      "tid": 24,
       "name": "Serge Ibaka",
       "ratings": [
         {
@@ -86510,10 +87000,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        27
+        27,
+        24
       ],
       "firstName": "Serge",
       "lastName": "Ibaka",
@@ -92411,7 +92946,7 @@
       "pid": 431
     },
     {
-      "tid": 0,
+      "tid": 24,
       "name": "Evan Turner",
       "ratings": [
         {
@@ -92602,10 +93137,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        0
+        0,
+        24
       ],
       "firstName": "Evan",
       "lastName": "Turner",
@@ -93781,7 +94361,7 @@
       "pid": 438
     },
     {
-      "tid": 0,
+      "tid": 24,
       "name": "Alex Len",
       "ratings": [
         {
@@ -93976,10 +94556,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        0
+        0,
+        24
       ],
       "firstName": "Alex",
       "lastName": "Len",
@@ -95367,7 +95992,7 @@
       "pid": 446
     },
     {
-      "tid": 16,
+      "tid": 9,
       "name": "Eric Bledsoe",
       "ratings": [
         {
@@ -95562,10 +96187,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 9,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        16
+        16,
+        9
       ],
       "firstName": "Eric",
       "lastName": "Bledsoe",
@@ -97353,7 +98023,7 @@
       "pid": 456
     },
     {
-      "tid": 24,
+      "tid": 0,
       "name": "C.J. McCollum",
       "ratings": [
         {
@@ -97551,10 +98221,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 0,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        24
+        24,
+        0
       ],
       "firstName": "C.J.",
       "lastName": "McCollum",
@@ -98384,7 +99099,7 @@
       "pid": 461
     },
     {
-      "tid": 24,
+      "tid": 27,
       "name": "Damian Lillard",
       "ratings": [
         {
@@ -98584,10 +99299,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 27,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        24
+        24,
+        27
       ],
       "firstName": "Damian",
       "lastName": "Lillard",
@@ -99488,7 +100248,7 @@
       "pid": 466
     },
     {
-      "tid": 10,
+      "tid": -1,
       "name": "Michael Frazier",
       "ratings": [
         {
@@ -99524,8 +100284,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/dleague/1626187.png",
       "contract": {
-        "amount": 1430,
-        "exp": 2020
+        "amount": 900,
+        "exp": 2021
       },
       "draft": {
         "round": 0,
@@ -99598,34 +100358,34 @@
       },
       "freeAgentMood": [
         0,
+        0.4126122277975823,
+        1.0152585816585833,
+        0.7906837124720321,
+        0.13867752504032627,
+        1.3382783360681207,
+        1.0497718576125035,
+        0.9904349905647865,
+        0.4725082637284357,
+        1.068410604137655,
         0,
         0,
+        2.062283686491886,
+        0.492070994543776,
+        0.8232526406868867,
         0,
         0,
+        1.8510868330732495,
+        0.7789586710974815,
+        1.2989288706405853,
         0,
+        0.23780004085176654,
+        0.14858331806689867,
         0,
+        1.415042673908672,
+        1.1705207278248797,
+        1.961846865519206,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1.2183722506206753,
         0
       ],
       "gamesUntilTradable": 0,
@@ -104364,7 +105124,7 @@
       "pid": 491
     },
     {
-      "tid": 26,
+      "tid": 20,
       "name": "Patty Mills",
       "ratings": [
         {
@@ -104558,10 +105318,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        26
+        26,
+        20
       ],
       "firstName": "Patty",
       "lastName": "Mills",
@@ -104584,7 +105389,7 @@
       "pid": 492
     },
     {
-      "tid": 26,
+      "tid": 20,
       "name": "Marco Belinelli",
       "ratings": [
         {
@@ -104777,10 +105582,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        26
+        26,
+        20
       ],
       "firstName": "Marco",
       "lastName": "Belinelli",
@@ -108805,7 +109655,7 @@
       "pid": 513
     },
     {
-      "tid": 20,
+      "tid": -1,
       "name": "Patrick Patterson",
       "ratings": [
         {
@@ -108844,8 +109694,8 @@
       },
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202335.png",
       "contract": {
-        "amount": 5700,
-        "exp": 2020
+        "amount": 900,
+        "exp": 2021
       },
       "draft": {
         "round": 1,
@@ -108917,36 +109767,36 @@
         "color": "#5c3937"
       },
       "freeAgentMood": [
+        1.6786375707089367,
+        0.6376617708769374,
+        1.0278102014534942,
+        0.07203531957493936,
         0,
+        1.4349007181827012,
         0,
+        0.9813000140891335,
+        2.2557446641339305,
+        1.6231993128592312,
+        1.3387601351520995,
+        1.582965367290675,
+        0.21637108124089843,
+        2.284398121597518,
+        0.9206917395295142,
+        0.2668627452008301,
+        1.2376266749512843,
+        0.5442099306498172,
+        1.4902737519709601,
+        0.01604226017829785,
+        1.1633208066616316,
+        0.8196552053548158,
+        0.7231238822074908,
+        0.3966402815090714,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1.2837623640099043,
+        1.9310856712674054,
+        0.9531566225392671,
+        0.794429259565422,
+        1.1020953663900679
       ],
       "gamesUntilTradable": 0,
       "hof": false,
@@ -122406,7 +123256,7 @@
       "pid": 585
     },
     {
-      "tid": 9,
+      "tid": 16,
       "name": "Jacob Evans",
       "ratings": [
         {
@@ -122597,10 +123447,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 16,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        9
+        9,
+        16
       ],
       "firstName": "Jacob",
       "lastName": "Evans",
@@ -135016,7 +135911,7 @@
       "pid": 649
     },
     {
-      "tid": 26,
+      "tid": 20,
       "name": "Lonnie Walker",
       "ratings": [
         {
@@ -135209,13 +136104,58 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 20,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        26
+        26,
+        20
       ],
       "firstName": "Lonnie",
-      "lastName": "Walker",
+      "lastName": "Walker IV",
       "value": 63.2,
       "valueNoPot": 56,
       "valueFuzz": 63.2,
@@ -138443,7 +139383,7 @@
       "pid": 667
     },
     {
-      "tid": 24,
+      "tid": 27,
       "name": "Hassan Whiteside",
       "ratings": [
         {
@@ -138649,10 +139589,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 27,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        24
+        24,
+        27
       ],
       "firstName": "Hassan",
       "lastName": "Whiteside",
@@ -148480,7 +149465,7 @@
       "pid": 719
     },
     {
-      "tid": 20,
+      "tid": -1,
       "name": "Donte Grantham",
       "ratings": [
         {
@@ -148517,7 +149502,7 @@
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/dleague/1629055.png",
       "contract": {
         "amount": 900,
-        "exp": 2020
+        "exp": 2021
       },
       "draft": {
         "round": 0,
@@ -148589,36 +149574,36 @@
         "color": "#5c3937"
       },
       "freeAgentMood": [
+        1.960173266638667,
+        0.7478333763366736,
+        0.3834911642187496,
+        0.43067440276567526,
+        1.1832400124882978,
         0,
+        1.621880221691321,
         0,
+        1.17016143083584,
+        0.1318013185218636,
+        0.8945314367576639,
+        1.6923573780091794,
+        0.3724244575594119,
+        0.3028431823358767,
+        0.8543931766013627,
+        1.8205293043219912,
+        0.10441243255447885,
         0,
+        0.24162116645194487,
         0,
+        0.04430599435867266,
+        0.14751847157008124,
+        1.5419588419502557,
+        1.7792980487758339,
+        1.0655534493544365,
+        1.7878885855954154,
+        0.7566238546546638,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1.178901191043047,
+        1.9697881727060642
       ],
       "gamesUntilTradable": 0,
       "hof": false,
@@ -158581,7 +159566,7 @@
       "pid": 771
     },
     {
-      "tid": 10,
+      "tid": -1,
       "name": "Gary Clark",
       "ratings": [
         {
@@ -158617,8 +159602,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629109.png",
       "contract": {
-        "amount": 1430,
-        "exp": 2021
+        "amount": 2400,
+        "exp": 2022
       },
       "draft": {
         "round": 0,
@@ -158690,36 +159675,36 @@
         "color": "#aa816f"
       },
       "freeAgentMood": [
+        1.4993337378895468,
+        1.8800206442835492,
+        0,
+        0.9812738700229853,
+        0.2013616425783339,
+        0.29140034818881766,
         0,
         0,
+        0.2767957720150628,
+        0,
+        1.0371533177472407,
+        0,
+        0.5721267102838223,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        0.28557983958489785,
+        0.45147919928613744,
+        1.5904518451214753,
+        0.846434896802513,
+        1.9020542736848514,
+        1.2313631754078598,
+        0.9479804412819726,
+        0.6581282167354523,
+        0.2455317610107568,
+        1.1113839123045939,
+        1.8491862286272522,
+        2.079040780973159,
+        0.28885586015601333,
+        0.9755379372041562,
+        0.03433060892013373
       ],
       "gamesUntilTradable": 0,
       "hof": false,
@@ -162140,7 +163125,7 @@
       "pid": 789
     },
     {
-      "tid": 9,
+      "tid": 16,
       "firstName": "Glenn",
       "lastName": "Robinson III",
       "ratings": [
@@ -162332,10 +163317,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 16,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        9
+        9,
+        16
       ],
       "value": 47.400000000000006,
       "valueNoPot": 47.00000000000001,
@@ -203169,6 +204199,6158 @@
       "valueNoPotFuzz": 25,
       "valueWithContract": 31,
       "pid": 1035
+    }
+  ],
+  "schedule": [
+    {
+      "homeTid": 24,
+      "awayTid": 18,
+      "gid": 0
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 6,
+      "gid": 1
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 19,
+      "gid": 2
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 13,
+      "gid": 3
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 12,
+      "gid": 4
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 15,
+      "gid": 5
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 17,
+      "gid": 6
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 20,
+      "gid": 7
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 22,
+      "gid": 8
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 21,
+      "gid": 9
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 8,
+      "gid": 10
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 26,
+      "gid": 11
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 14,
+      "gid": 12
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 29,
+      "gid": 13
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 7,
+      "gid": 14
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 18,
+      "gid": 15
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 13,
+      "gid": 16
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 27,
+      "gid": 17
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 0,
+      "gid": 18
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 2,
+      "gid": 19
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 6,
+      "gid": 20
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 24,
+      "gid": 21
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 28,
+      "gid": 22
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 3,
+      "gid": 23
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 20,
+      "gid": 24
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 29,
+      "gid": 25
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 4,
+      "gid": 26
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 25,
+      "gid": 27
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 10,
+      "gid": 28
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 26,
+      "gid": 29
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 28,
+      "gid": 30
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 12,
+      "gid": 31
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 25,
+      "gid": 32
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 26,
+      "gid": 33
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 2,
+      "gid": 34
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 0,
+      "gid": 35
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 1,
+      "gid": 36
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 5,
+      "gid": 37
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 11,
+      "gid": 38
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 24,
+      "gid": 39
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 4,
+      "gid": 40
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 29,
+      "gid": 41
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 8,
+      "gid": 42
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 10,
+      "gid": 43
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 22,
+      "gid": 44
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 28,
+      "gid": 45
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 13,
+      "gid": 46
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 20,
+      "gid": 47
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 23,
+      "gid": 48
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 0,
+      "gid": 49
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 10,
+      "gid": 50
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 25,
+      "gid": 51
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 8,
+      "gid": 52
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 4,
+      "gid": 53
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 1,
+      "gid": 54
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 11,
+      "gid": 55
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 15,
+      "gid": 56
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 16,
+      "gid": 57
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 6,
+      "gid": 58
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 14,
+      "gid": 59
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 20,
+      "gid": 60
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 27,
+      "gid": 61
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 23,
+      "gid": 62
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 12,
+      "gid": 63
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 2,
+      "gid": 64
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 7,
+      "gid": 65
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 9,
+      "gid": 66
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 28,
+      "gid": 67
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 21,
+      "gid": 68
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 8,
+      "gid": 69
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 17,
+      "gid": 70
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 1,
+      "gid": 71
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 10,
+      "gid": 72
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 15,
+      "gid": 73
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 6,
+      "gid": 74
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 23,
+      "gid": 75
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 12,
+      "gid": 76
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 7,
+      "gid": 77
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 19,
+      "gid": 78
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 1,
+      "gid": 79
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 18,
+      "gid": 80
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 15,
+      "gid": 81
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 27,
+      "gid": 82
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 6,
+      "gid": 83
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 21,
+      "gid": 84
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 17,
+      "gid": 85
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 22,
+      "gid": 86
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 16,
+      "gid": 87
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 5,
+      "gid": 88
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 4,
+      "gid": 89
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 11,
+      "gid": 90
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 22,
+      "gid": 91
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 14,
+      "gid": 92
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 3,
+      "gid": 93
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 10,
+      "gid": 94
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 21,
+      "gid": 95
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 20,
+      "gid": 96
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 7,
+      "gid": 97
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 3,
+      "gid": 98
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 13,
+      "gid": 99
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 2,
+      "gid": 100
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 1,
+      "gid": 101
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 15,
+      "gid": 102
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 17,
+      "gid": 103
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 18,
+      "gid": 104
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 6,
+      "gid": 105
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 5,
+      "gid": 106
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 0,
+      "gid": 107
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 19,
+      "gid": 108
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 29,
+      "gid": 109
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 10,
+      "gid": 110
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 15,
+      "gid": 111
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 10,
+      "gid": 112
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 1,
+      "gid": 113
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 27,
+      "gid": 114
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 20,
+      "gid": 115
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 8,
+      "gid": 116
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 2,
+      "gid": 117
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 21,
+      "gid": 118
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 7,
+      "gid": 119
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 11,
+      "gid": 120
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 18,
+      "gid": 121
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 4,
+      "gid": 122
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 25,
+      "gid": 123
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 17,
+      "gid": 124
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 23,
+      "gid": 125
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 9,
+      "gid": 126
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 29,
+      "gid": 127
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 12,
+      "gid": 128
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 13,
+      "gid": 129
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 8,
+      "gid": 130
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 27,
+      "gid": 131
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 16,
+      "gid": 132
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 25,
+      "gid": 133
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 21,
+      "gid": 134
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 17,
+      "gid": 135
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 14,
+      "gid": 136
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 10,
+      "gid": 137
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 11,
+      "gid": 138
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 15,
+      "gid": 139
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 5,
+      "gid": 140
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 7,
+      "gid": 141
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 22,
+      "gid": 142
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 1,
+      "gid": 143
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 27,
+      "gid": 144
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 24,
+      "gid": 145
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 13,
+      "gid": 146
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 23,
+      "gid": 147
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 3,
+      "gid": 148
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 25,
+      "gid": 149
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 20,
+      "gid": 150
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 16,
+      "gid": 151
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 10,
+      "gid": 152
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 19,
+      "gid": 153
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 13,
+      "gid": 154
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 22,
+      "gid": 155
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 8,
+      "gid": 156
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 20,
+      "gid": 157
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 28,
+      "gid": 158
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 2,
+      "gid": 159
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 14,
+      "gid": 160
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 24,
+      "gid": 161
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 21,
+      "gid": 162
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 12,
+      "gid": 163
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 0,
+      "gid": 164
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 5,
+      "gid": 165
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 16,
+      "gid": 166
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 8,
+      "gid": 167
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 1,
+      "gid": 168
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 26,
+      "gid": 169
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 22,
+      "gid": 170
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 25,
+      "gid": 171
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 19,
+      "gid": 172
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 9,
+      "gid": 173
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 28,
+      "gid": 174
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 3,
+      "gid": 175
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 12,
+      "gid": 176
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 24,
+      "gid": 177
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 16,
+      "gid": 178
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 11,
+      "gid": 179
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 10,
+      "gid": 180
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 17,
+      "gid": 181
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 11,
+      "gid": 182
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 12,
+      "gid": 183
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 26,
+      "gid": 184
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 24,
+      "gid": 185
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 8,
+      "gid": 186
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 18,
+      "gid": 187
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 16,
+      "gid": 188
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 13,
+      "gid": 189
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 20,
+      "gid": 190
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 19,
+      "gid": 191
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 25,
+      "gid": 192
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 9,
+      "gid": 193
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 4,
+      "gid": 194
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 21,
+      "gid": 195
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 1,
+      "gid": 196
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 9,
+      "gid": 197
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 24,
+      "gid": 198
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 12,
+      "gid": 199
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 14,
+      "gid": 200
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 4,
+      "gid": 201
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 21,
+      "gid": 202
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 29,
+      "gid": 203
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 22,
+      "gid": 204
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 10,
+      "gid": 205
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 26,
+      "gid": 206
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 17,
+      "gid": 207
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 1,
+      "gid": 208
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 11,
+      "gid": 209
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 8,
+      "gid": 210
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 25,
+      "gid": 211
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 18,
+      "gid": 212
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 23,
+      "gid": 213
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 26,
+      "gid": 214
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 19,
+      "gid": 215
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 15,
+      "gid": 216
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 21,
+      "gid": 217
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 2,
+      "gid": 218
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 3,
+      "gid": 219
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 20,
+      "gid": 220
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 16,
+      "gid": 221
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 8,
+      "gid": 222
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 25,
+      "gid": 223
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 10,
+      "gid": 224
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 29,
+      "gid": 225
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 23,
+      "gid": 226
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 24,
+      "gid": 227
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 12,
+      "gid": 228
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 6,
+      "gid": 229
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 18,
+      "gid": 230
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 8,
+      "gid": 231
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 26,
+      "gid": 232
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 3,
+      "gid": 233
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 27,
+      "gid": 234
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 22,
+      "gid": 235
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 5,
+      "gid": 236
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 13,
+      "gid": 237
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 25,
+      "gid": 238
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 14,
+      "gid": 239
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 11,
+      "gid": 240
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 27,
+      "gid": 241
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 23,
+      "gid": 242
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 22,
+      "gid": 243
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 19,
+      "gid": 244
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 9,
+      "gid": 245
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 0,
+      "gid": 246
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 11,
+      "gid": 247
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 25,
+      "gid": 248
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 21,
+      "gid": 249
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 1,
+      "gid": 250
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 8,
+      "gid": 251
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 4,
+      "gid": 252
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 6,
+      "gid": 253
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 3,
+      "gid": 254
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 5,
+      "gid": 255
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 1,
+      "gid": 256
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 27,
+      "gid": 257
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 9,
+      "gid": 258
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 19,
+      "gid": 259
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 7,
+      "gid": 260
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 8,
+      "gid": 261
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 15,
+      "gid": 262
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 0,
+      "gid": 263
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 16,
+      "gid": 264
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 23,
+      "gid": 265
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 20,
+      "gid": 266
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 4,
+      "gid": 267
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 18,
+      "gid": 268
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 21,
+      "gid": 269
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 19,
+      "gid": 270
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 10,
+      "gid": 271
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 3,
+      "gid": 272
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 18,
+      "gid": 273
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 20,
+      "gid": 274
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 1,
+      "gid": 275
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 26,
+      "gid": 276
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 13,
+      "gid": 277
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 2,
+      "gid": 278
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 17,
+      "gid": 279
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 0,
+      "gid": 280
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 7,
+      "gid": 281
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 14,
+      "gid": 282
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 10,
+      "gid": 283
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 22,
+      "gid": 284
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 18,
+      "gid": 285
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 1,
+      "gid": 286
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 14,
+      "gid": 287
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 2,
+      "gid": 288
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 27,
+      "gid": 289
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 8,
+      "gid": 290
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 16,
+      "gid": 291
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 26,
+      "gid": 292
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 28,
+      "gid": 293
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 0,
+      "gid": 294
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 17,
+      "gid": 295
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 3,
+      "gid": 296
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 21,
+      "gid": 297
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 20,
+      "gid": 298
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 28,
+      "gid": 299
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 23,
+      "gid": 300
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 15,
+      "gid": 301
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 18,
+      "gid": 302
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 24,
+      "gid": 303
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 21,
+      "gid": 304
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 17,
+      "gid": 305
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 0,
+      "gid": 306
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 6,
+      "gid": 307
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 8,
+      "gid": 308
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 14,
+      "gid": 309
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 1,
+      "gid": 310
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 5,
+      "gid": 311
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 28,
+      "gid": 312
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 12,
+      "gid": 313
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 11,
+      "gid": 314
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 28,
+      "gid": 315
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 27,
+      "gid": 316
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 14,
+      "gid": 317
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 23,
+      "gid": 318
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 17,
+      "gid": 319
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 16,
+      "gid": 320
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 29,
+      "gid": 321
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 1,
+      "gid": 322
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 22,
+      "gid": 323
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 10,
+      "gid": 324
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 26,
+      "gid": 325
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 6,
+      "gid": 326
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 15,
+      "gid": 327
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 20,
+      "gid": 328
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 6,
+      "gid": 329
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 23,
+      "gid": 330
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 11,
+      "gid": 331
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 1,
+      "gid": 332
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 18,
+      "gid": 333
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 17,
+      "gid": 334
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 9,
+      "gid": 335
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 10,
+      "gid": 336
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 19,
+      "gid": 337
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 7,
+      "gid": 338
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 28,
+      "gid": 339
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 16,
+      "gid": 340
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 18,
+      "gid": 341
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 2,
+      "gid": 342
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 0,
+      "gid": 343
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 13,
+      "gid": 344
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 12,
+      "gid": 345
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 9,
+      "gid": 346
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 15,
+      "gid": 347
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 1,
+      "gid": 348
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 24,
+      "gid": 349
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 10,
+      "gid": 350
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 4,
+      "gid": 351
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 25,
+      "gid": 352
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 22,
+      "gid": 353
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 7,
+      "gid": 354
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 17,
+      "gid": 355
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 17,
+      "gid": 356
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 14,
+      "gid": 357
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 12,
+      "gid": 358
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 9,
+      "gid": 359
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 11,
+      "gid": 360
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 7,
+      "gid": 361
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 27,
+      "gid": 362
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 13,
+      "gid": 363
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 4,
+      "gid": 364
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 8,
+      "gid": 365
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 10,
+      "gid": 366
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 2,
+      "gid": 367
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 22,
+      "gid": 368
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 6,
+      "gid": 369
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 3,
+      "gid": 370
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 28,
+      "gid": 371
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 29,
+      "gid": 372
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 15,
+      "gid": 373
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 4,
+      "gid": 374
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 21,
+      "gid": 375
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 26,
+      "gid": 376
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 22,
+      "gid": 377
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 27,
+      "gid": 378
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 11,
+      "gid": 379
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 8,
+      "gid": 380
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 17,
+      "gid": 381
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 1,
+      "gid": 382
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 10,
+      "gid": 383
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 18,
+      "gid": 384
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 5,
+      "gid": 385
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 10,
+      "gid": 386
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 0,
+      "gid": 387
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 11,
+      "gid": 388
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 28,
+      "gid": 389
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 18,
+      "gid": 390
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 26,
+      "gid": 391
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 1,
+      "gid": 392
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 9,
+      "gid": 393
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 21,
+      "gid": 394
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 22,
+      "gid": 395
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 27,
+      "gid": 396
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 15,
+      "gid": 397
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 6,
+      "gid": 398
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 29,
+      "gid": 399
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 23,
+      "gid": 400
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 2,
+      "gid": 401
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 24,
+      "gid": 402
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 7,
+      "gid": 403
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 1,
+      "gid": 404
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 14,
+      "gid": 405
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 21,
+      "gid": 406
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 27,
+      "gid": 407
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 5,
+      "gid": 408
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 17,
+      "gid": 409
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 13,
+      "gid": 410
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 29,
+      "gid": 411
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 4,
+      "gid": 412
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 10,
+      "gid": 413
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 28,
+      "gid": 414
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 0,
+      "gid": 415
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 15,
+      "gid": 416
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 29,
+      "gid": 417
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 5,
+      "gid": 418
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 20,
+      "gid": 419
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 27,
+      "gid": 420
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 6,
+      "gid": 421
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 13,
+      "gid": 422
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 18,
+      "gid": 423
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 17,
+      "gid": 424
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 3,
+      "gid": 425
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 24,
+      "gid": 426
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 19,
+      "gid": 427
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 25,
+      "gid": 428
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 9,
+      "gid": 429
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 3,
+      "gid": 430
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 13,
+      "gid": 431
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 19,
+      "gid": 432
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 4,
+      "gid": 433
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 15,
+      "gid": 434
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 12,
+      "gid": 435
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 11,
+      "gid": 436
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 0,
+      "gid": 437
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 28,
+      "gid": 438
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 1,
+      "gid": 439
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 8,
+      "gid": 440
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 25,
+      "gid": 441
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 7,
+      "gid": 442
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 29,
+      "gid": 443
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 19,
+      "gid": 444
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 8,
+      "gid": 445
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 18,
+      "gid": 446
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 17,
+      "gid": 447
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 23,
+      "gid": 448
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 24,
+      "gid": 449
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 10,
+      "gid": 450
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 12,
+      "gid": 451
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 11,
+      "gid": 452
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 20,
+      "gid": 453
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 22,
+      "gid": 454
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 26,
+      "gid": 455
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 3,
+      "gid": 456
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 4,
+      "gid": 457
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 14,
+      "gid": 458
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 8,
+      "gid": 459
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 12,
+      "gid": 460
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 15,
+      "gid": 461
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 24,
+      "gid": 462
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 27,
+      "gid": 463
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 3,
+      "gid": 464
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 19,
+      "gid": 465
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 26,
+      "gid": 466
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 1,
+      "gid": 467
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 16,
+      "gid": 468
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 11,
+      "gid": 469
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 14,
+      "gid": 470
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 5,
+      "gid": 471
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 25,
+      "gid": 472
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 6,
+      "gid": 473
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 18,
+      "gid": 474
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 25,
+      "gid": 475
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 13,
+      "gid": 476
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 2,
+      "gid": 477
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 6,
+      "gid": 478
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 19,
+      "gid": 479
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 0,
+      "gid": 480
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 26,
+      "gid": 481
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 20,
+      "gid": 482
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 3,
+      "gid": 483
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 17,
+      "gid": 484
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 4,
+      "gid": 485
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 16,
+      "gid": 486
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 5,
+      "gid": 487
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 10,
+      "gid": 488
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 12,
+      "gid": 489
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 18,
+      "gid": 490
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 16,
+      "gid": 491
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 22,
+      "gid": 492
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 27,
+      "gid": 493
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 28,
+      "gid": 494
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 23,
+      "gid": 495
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 13,
+      "gid": 496
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 0,
+      "gid": 497
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 1,
+      "gid": 498
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 9,
+      "gid": 499
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 29,
+      "gid": 500
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 17,
+      "gid": 501
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 11,
+      "gid": 502
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 26,
+      "gid": 503
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 8,
+      "gid": 504
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 12,
+      "gid": 505
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 3,
+      "gid": 506
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 5,
+      "gid": 507
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 10,
+      "gid": 508
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 29,
+      "gid": 509
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 19,
+      "gid": 510
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 2,
+      "gid": 511
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 4,
+      "gid": 512
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 14,
+      "gid": 513
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 13,
+      "gid": 514
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 28,
+      "gid": 515
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 16,
+      "gid": 516
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 21,
+      "gid": 517
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 1,
+      "gid": 518
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 13,
+      "gid": 519
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 25,
+      "gid": 520
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 19,
+      "gid": 521
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 26,
+      "gid": 522
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 12,
+      "gid": 523
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 6,
+      "gid": 524
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 24,
+      "gid": 525
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 0,
+      "gid": 526
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 22,
+      "gid": 527
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 8,
+      "gid": 528
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 29,
+      "gid": 529
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 10,
+      "gid": 530
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 21,
+      "gid": 531
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 7,
+      "gid": 532
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 18,
+      "gid": 533
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 24,
+      "gid": 534
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 23,
+      "gid": 535
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 8,
+      "gid": 536
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 13,
+      "gid": 537
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 28,
+      "gid": 538
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 1,
+      "gid": 539
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 9,
+      "gid": 540
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 11,
+      "gid": 541
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 22,
+      "gid": 542
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 17,
+      "gid": 543
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 10,
+      "gid": 544
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 5,
+      "gid": 545
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 25,
+      "gid": 546
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 4,
+      "gid": 547
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 20,
+      "gid": 548
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 6,
+      "gid": 549
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 29,
+      "gid": 550
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 16,
+      "gid": 551
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 8,
+      "gid": 552
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 12,
+      "gid": 553
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 7,
+      "gid": 554
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 24,
+      "gid": 555
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 17,
+      "gid": 556
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 27,
+      "gid": 557
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 3,
+      "gid": 558
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 25,
+      "gid": 559
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 15,
+      "gid": 560
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 4,
+      "gid": 561
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 0,
+      "gid": 562
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 6,
+      "gid": 563
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 10,
+      "gid": 564
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 2,
+      "gid": 565
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 11,
+      "gid": 566
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 20,
+      "gid": 567
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 23,
+      "gid": 568
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 9,
+      "gid": 569
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 5,
+      "gid": 570
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 18,
+      "gid": 571
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 12,
+      "gid": 572
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 29,
+      "gid": 573
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 7,
+      "gid": 574
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 23,
+      "gid": 575
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 5,
+      "gid": 576
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 13,
+      "gid": 577
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 4,
+      "gid": 578
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 19,
+      "gid": 579
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 6,
+      "gid": 580
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 22,
+      "gid": 581
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 20,
+      "gid": 582
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 16,
+      "gid": 583
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 12,
+      "gid": 584
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 14,
+      "gid": 585
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 25,
+      "gid": 586
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 29,
+      "gid": 587
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 17,
+      "gid": 588
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 11,
+      "gid": 589
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 14,
+      "gid": 590
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 27,
+      "gid": 591
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 9,
+      "gid": 592
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 24,
+      "gid": 593
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 2,
+      "gid": 594
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 1,
+      "gid": 595
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 9,
+      "gid": 596
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 19,
+      "gid": 597
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 6,
+      "gid": 598
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 23,
+      "gid": 599
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 18,
+      "gid": 600
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 13,
+      "gid": 601
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 16,
+      "gid": 602
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 15,
+      "gid": 603
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 21,
+      "gid": 604
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 4,
+      "gid": 605
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 7,
+      "gid": 606
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 29,
+      "gid": 607
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 28,
+      "gid": 608
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 2,
+      "gid": 609
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 25,
+      "gid": 610
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 20,
+      "gid": 611
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 26,
+      "gid": 612
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 23,
+      "gid": 613
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 5,
+      "gid": 614
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 16,
+      "gid": 615
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 1,
+      "gid": 616
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 14,
+      "gid": 617
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 9,
+      "gid": 618
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 3,
+      "gid": 619
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 12,
+      "gid": 620
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 29,
+      "gid": 621
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 27,
+      "gid": 622
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 0,
+      "gid": 623
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 12,
+      "gid": 624
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 8,
+      "gid": 625
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 1,
+      "gid": 626
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 10,
+      "gid": 627
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 26,
+      "gid": 628
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 25,
+      "gid": 629
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 15,
+      "gid": 630
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 3,
+      "gid": 631
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 19,
+      "gid": 632
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 4,
+      "gid": 633
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 17,
+      "gid": 634
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 16,
+      "gid": 635
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 11,
+      "gid": 636
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 9,
+      "gid": 637
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 20,
+      "gid": 638
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 7,
+      "gid": 639
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 26,
+      "gid": 640
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 19,
+      "gid": 641
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 24,
+      "gid": 642
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 20,
+      "gid": 643
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 25,
+      "gid": 644
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 14,
+      "gid": 645
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 9,
+      "gid": 646
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 6,
+      "gid": 647
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 3,
+      "gid": 648
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 13,
+      "gid": 649
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 5,
+      "gid": 650
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 28,
+      "gid": 651
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 4,
+      "gid": 652
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 12,
+      "gid": 653
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 0,
+      "gid": 654
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 10,
+      "gid": 655
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 12,
+      "gid": 656
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 19,
+      "gid": 657
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 7,
+      "gid": 658
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 22,
+      "gid": 659
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 29,
+      "gid": 660
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 4,
+      "gid": 661
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 13,
+      "gid": 662
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 2,
+      "gid": 663
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 25,
+      "gid": 664
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 9,
+      "gid": 665
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 5,
+      "gid": 666
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 15,
+      "gid": 667
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 17,
+      "gid": 668
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 2,
+      "gid": 669
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 11,
+      "gid": 670
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 20,
+      "gid": 671
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 23,
+      "gid": 672
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 22,
+      "gid": 673
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 18,
+      "gid": 674
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 13,
+      "gid": 675
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 3,
+      "gid": 676
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 0,
+      "gid": 677
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 19,
+      "gid": 678
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 5,
+      "gid": 679
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 26,
+      "gid": 680
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 28,
+      "gid": 681
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 6,
+      "gid": 682
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 27,
+      "gid": 683
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 22,
+      "gid": 684
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 12,
+      "gid": 685
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 19,
+      "gid": 686
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 6,
+      "gid": 687
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 28,
+      "gid": 688
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 2,
+      "gid": 689
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 8,
+      "gid": 690
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 14,
+      "gid": 691
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 0,
+      "gid": 692
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 7,
+      "gid": 693
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 24,
+      "gid": 694
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 1,
+      "gid": 695
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 3,
+      "gid": 696
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 5,
+      "gid": 697
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 26,
+      "gid": 698
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 21,
+      "gid": 699
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 22,
+      "gid": 700
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 23,
+      "gid": 701
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 27,
+      "gid": 702
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 9,
+      "gid": 703
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 12,
+      "gid": 704
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 16,
+      "gid": 705
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 25,
+      "gid": 706
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 0,
+      "gid": 707
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 3,
+      "gid": 708
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 2,
+      "gid": 709
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 14,
+      "gid": 710
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 1,
+      "gid": 711
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 4,
+      "gid": 712
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 23,
+      "gid": 713
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 20,
+      "gid": 714
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 15,
+      "gid": 715
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 5,
+      "gid": 716
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 17,
+      "gid": 717
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 4,
+      "gid": 718
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 21,
+      "gid": 719
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 1,
+      "gid": 720
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 28,
+      "gid": 721
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 26,
+      "gid": 722
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 22,
+      "gid": 723
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 2,
+      "gid": 724
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 16,
+      "gid": 725
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 10,
+      "gid": 726
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 29,
+      "gid": 727
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 16,
+      "gid": 728
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 0,
+      "gid": 729
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 18,
+      "gid": 730
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 8,
+      "gid": 731
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 15,
+      "gid": 732
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 9,
+      "gid": 733
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 2,
+      "gid": 734
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 24,
+      "gid": 735
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 19,
+      "gid": 736
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 29,
+      "gid": 737
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 21,
+      "gid": 738
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 17,
+      "gid": 739
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 3,
+      "gid": 740
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 10,
+      "gid": 741
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 21,
+      "gid": 742
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 25,
+      "gid": 743
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 7,
+      "gid": 744
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 8,
+      "gid": 745
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 13,
+      "gid": 746
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 3,
+      "gid": 747
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 6,
+      "gid": 748
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 1,
+      "gid": 749
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 11,
+      "gid": 750
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 4,
+      "gid": 751
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 9,
+      "gid": 752
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 12,
+      "gid": 753
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 5,
+      "gid": 754
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 14,
+      "gid": 755
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 7,
+      "gid": 756
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 23,
+      "gid": 757
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 19,
+      "gid": 758
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 1,
+      "gid": 759
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 8,
+      "gid": 760
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 9,
+      "gid": 761
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 2,
+      "gid": 762
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 27,
+      "gid": 763
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 17,
+      "gid": 764
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 11,
+      "gid": 765
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 16,
+      "gid": 766
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 14,
+      "gid": 767
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 22,
+      "gid": 768
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 4,
+      "gid": 769
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 10,
+      "gid": 770
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 18,
+      "gid": 771
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 8,
+      "gid": 772
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 24,
+      "gid": 773
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 0,
+      "gid": 774
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 27,
+      "gid": 775
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 5,
+      "gid": 776
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 10,
+      "gid": 777
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 6,
+      "gid": 778
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 28,
+      "gid": 779
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 9,
+      "gid": 780
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 17,
+      "gid": 781
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 3,
+      "gid": 782
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 19,
+      "gid": 783
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 25,
+      "gid": 784
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 21,
+      "gid": 785
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 18,
+      "gid": 786
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 23,
+      "gid": 787
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 27,
+      "gid": 788
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 13,
+      "gid": 789
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 15,
+      "gid": 790
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 9,
+      "gid": 791
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 3,
+      "gid": 792
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 24,
+      "gid": 793
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 26,
+      "gid": 794
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 8,
+      "gid": 795
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 14,
+      "gid": 796
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 10,
+      "gid": 797
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 16,
+      "gid": 798
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 21,
+      "gid": 799
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 5,
+      "gid": 800
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 20,
+      "gid": 801
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 9,
+      "gid": 802
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 16,
+      "gid": 803
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 3,
+      "gid": 804
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 14,
+      "gid": 805
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 22,
+      "gid": 806
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 19,
+      "gid": 807
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 21,
+      "gid": 808
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 24,
+      "gid": 809
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 0,
+      "gid": 810
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 5,
+      "gid": 811
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 7,
+      "gid": 812
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 2,
+      "gid": 813
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 17,
+      "gid": 814
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 29,
+      "gid": 815
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 15,
+      "gid": 816
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 21,
+      "gid": 817
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 20,
+      "gid": 818
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 8,
+      "gid": 819
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 23,
+      "gid": 820
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 26,
+      "gid": 821
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 13,
+      "gid": 822
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 25,
+      "gid": 823
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 2,
+      "gid": 824
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 12,
+      "gid": 825
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 17,
+      "gid": 826
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 28,
+      "gid": 827
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 6,
+      "gid": 828
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 29,
+      "gid": 829
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 8,
+      "gid": 830
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 15,
+      "gid": 831
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 18,
+      "gid": 832
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 24,
+      "gid": 833
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 7,
+      "gid": 834
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 27,
+      "gid": 835
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 6,
+      "gid": 836
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 28,
+      "gid": 837
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 21,
+      "gid": 838
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 16,
+      "gid": 839
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 1,
+      "gid": 840
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 3,
+      "gid": 841
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 26,
+      "gid": 842
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 2,
+      "gid": 843
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 17,
+      "gid": 844
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 22,
+      "gid": 845
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 7,
+      "gid": 846
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 23,
+      "gid": 847
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 27,
+      "gid": 848
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 28,
+      "gid": 849
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 8,
+      "gid": 850
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 19,
+      "gid": 851
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 25,
+      "gid": 852
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 24,
+      "gid": 853
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 16,
+      "gid": 854
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 0,
+      "gid": 855
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 18,
+      "gid": 856
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 21,
+      "gid": 857
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 29,
+      "gid": 858
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 15,
+      "gid": 859
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 13,
+      "gid": 860
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 19,
+      "gid": 861
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 28,
+      "gid": 862
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 24,
+      "gid": 863
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 18,
+      "gid": 864
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 27,
+      "gid": 865
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 29,
+      "gid": 866
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 21,
+      "gid": 867
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 26,
+      "gid": 868
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 16,
+      "gid": 869
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 2,
+      "gid": 870
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 0,
+      "gid": 871
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 6,
+      "gid": 872
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 14,
+      "gid": 873
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 18,
+      "gid": 874
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 8,
+      "gid": 875
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 25,
+      "gid": 876
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 26,
+      "gid": 877
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 20,
+      "gid": 878
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 6,
+      "gid": 879
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 10,
+      "gid": 880
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 5,
+      "gid": 881
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 21,
+      "gid": 882
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 28,
+      "gid": 883
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 23,
+      "gid": 884
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 16,
+      "gid": 885
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 17,
+      "gid": 886
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 9,
+      "gid": 887
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 5,
+      "gid": 888
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 28,
+      "gid": 889
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 4,
+      "gid": 890
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 11,
+      "gid": 891
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 12,
+      "gid": 892
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 27,
+      "gid": 893
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 22,
+      "gid": 894
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 6,
+      "gid": 895
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 24,
+      "gid": 896
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 29,
+      "gid": 897
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 14,
+      "gid": 898
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 8,
+      "gid": 899
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 3,
+      "gid": 900
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 23,
+      "gid": 901
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 21,
+      "gid": 902
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 19,
+      "gid": 903
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 12,
+      "gid": 904
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 6,
+      "gid": 905
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 27,
+      "gid": 906
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 9,
+      "gid": 907
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 20,
+      "gid": 908
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 7,
+      "gid": 909
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 1,
+      "gid": 910
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 14,
+      "gid": 911
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 4,
+      "gid": 912
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 15,
+      "gid": 913
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 0,
+      "gid": 914
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 25,
+      "gid": 915
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 4,
+      "gid": 916
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 19,
+      "gid": 917
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 12,
+      "gid": 918
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 21,
+      "gid": 919
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 7,
+      "gid": 920
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 10,
+      "gid": 921
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 24,
+      "gid": 922
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 18,
+      "gid": 923
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 26,
+      "gid": 924
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 2,
+      "gid": 925
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 15,
+      "gid": 926
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 5,
+      "gid": 927
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 22,
+      "gid": 928
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 16,
+      "gid": 929
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 25,
+      "gid": 930
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 20,
+      "gid": 931
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 9,
+      "gid": 932
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 15,
+      "gid": 933
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 14,
+      "gid": 934
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 11,
+      "gid": 935
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 3,
+      "gid": 936
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 13,
+      "gid": 937
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 27,
+      "gid": 938
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 2,
+      "gid": 939
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 29,
+      "gid": 940
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 10,
+      "gid": 941
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 8,
+      "gid": 942
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 6,
+      "gid": 943
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 7,
+      "gid": 944
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 23,
+      "gid": 945
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 5,
+      "gid": 946
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 15,
+      "gid": 947
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 16,
+      "gid": 948
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 29,
+      "gid": 949
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 18,
+      "gid": 950
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 3,
+      "gid": 951
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 22,
+      "gid": 952
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 26,
+      "gid": 953
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 6,
+      "gid": 954
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 24,
+      "gid": 955
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 7,
+      "gid": 956
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 11,
+      "gid": 957
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 14,
+      "gid": 958
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 0,
+      "gid": 959
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 1,
+      "gid": 960
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 8,
+      "gid": 961
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 26,
+      "gid": 962
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 27,
+      "gid": 963
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 6,
+      "gid": 964
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 25,
+      "gid": 965
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 19,
+      "gid": 966
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 2,
+      "gid": 967
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 17,
+      "gid": 968
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 3,
+      "gid": 969
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 7,
+      "gid": 970
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 16,
+      "gid": 971
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 0,
+      "gid": 972
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 29,
+      "gid": 973
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 23,
+      "gid": 974
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 20,
+      "gid": 975
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 12,
+      "gid": 976
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 27,
+      "gid": 977
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 9,
+      "gid": 978
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 19,
+      "gid": 979
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 17,
+      "gid": 980
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 24,
+      "gid": 981
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 28,
+      "gid": 982
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 13,
+      "gid": 983
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 11,
+      "gid": 984
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 16,
+      "gid": 985
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 5,
+      "gid": 986
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 18,
+      "gid": 987
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 7,
+      "gid": 988
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 26,
+      "gid": 989
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 5,
+      "gid": 990
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 0,
+      "gid": 991
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 21,
+      "gid": 992
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 20,
+      "gid": 993
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 2,
+      "gid": 994
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 1,
+      "gid": 995
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 11,
+      "gid": 996
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 4,
+      "gid": 997
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 29,
+      "gid": 998
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 24,
+      "gid": 999
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 15,
+      "gid": 1000
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 27,
+      "gid": 1001
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 18,
+      "gid": 1002
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 9,
+      "gid": 1003
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 11,
+      "gid": 1004
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 22,
+      "gid": 1005
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 25,
+      "gid": 1006
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 26,
+      "gid": 1007
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 0,
+      "gid": 1008
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 6,
+      "gid": 1009
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 14,
+      "gid": 1010
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 20,
+      "gid": 1011
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 19,
+      "gid": 1012
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 18,
+      "gid": 1013
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 23,
+      "gid": 1014
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 13,
+      "gid": 1015
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 14,
+      "gid": 1016
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 7,
+      "gid": 1017
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 9,
+      "gid": 1018
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 25,
+      "gid": 1019
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 15,
+      "gid": 1020
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 21,
+      "gid": 1021
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 4,
+      "gid": 1022
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 16,
+      "gid": 1023
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 1,
+      "gid": 1024
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 22,
+      "gid": 1025
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 11,
+      "gid": 1026
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 6,
+      "gid": 1027
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 13,
+      "gid": 1028
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 19,
+      "gid": 1029
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 24,
+      "gid": 1030
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 23,
+      "gid": 1031
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 22,
+      "gid": 1032
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 10,
+      "gid": 1033
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 3,
+      "gid": 1034
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 0,
+      "gid": 1035
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 20,
+      "gid": 1036
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 4,
+      "gid": 1037
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 28,
+      "gid": 1038
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 29,
+      "gid": 1039
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 5,
+      "gid": 1040
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 14,
+      "gid": 1041
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 0,
+      "gid": 1042
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 1,
+      "gid": 1043
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 28,
+      "gid": 1044
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 3,
+      "gid": 1045
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 16,
+      "gid": 1046
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 5,
+      "gid": 1047
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 20,
+      "gid": 1048
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 29,
+      "gid": 1049
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 23,
+      "gid": 1050
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 17,
+      "gid": 1051
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 2,
+      "gid": 1052
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 11,
+      "gid": 1053
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 14,
+      "gid": 1054
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 26,
+      "gid": 1055
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 15,
+      "gid": 1056
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 21,
+      "gid": 1057
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 9,
+      "gid": 1058
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 11,
+      "gid": 1059
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 29,
+      "gid": 1060
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 25,
+      "gid": 1061
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 14,
+      "gid": 1062
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 0,
+      "gid": 1063
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 26,
+      "gid": 1064
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 7,
+      "gid": 1065
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 16,
+      "gid": 1066
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 19,
+      "gid": 1067
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 23,
+      "gid": 1068
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 25,
+      "gid": 1069
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 15,
+      "gid": 1070
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 24,
+      "gid": 1071
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 6,
+      "gid": 1072
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 12,
+      "gid": 1073
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 4,
+      "gid": 1074
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 28,
+      "gid": 1075
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 22,
+      "gid": 1076
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 27,
+      "gid": 1077
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 10,
+      "gid": 1078
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 21,
+      "gid": 1079
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 9,
+      "gid": 1080
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 29,
+      "gid": 1081
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 20,
+      "gid": 1082
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 3,
+      "gid": 1083
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 5,
+      "gid": 1084
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 11,
+      "gid": 1085
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 7,
+      "gid": 1086
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 20,
+      "gid": 1087
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 0,
+      "gid": 1088
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 18,
+      "gid": 1089
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 13,
+      "gid": 1090
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 4,
+      "gid": 1091
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 24,
+      "gid": 1092
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 26,
+      "gid": 1093
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 17,
+      "gid": 1094
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 6,
+      "gid": 1095
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 2,
+      "gid": 1096
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 3,
+      "gid": 1097
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 11,
+      "gid": 1098
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 20,
+      "gid": 1099
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 12,
+      "gid": 1100
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 22,
+      "gid": 1101
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 27,
+      "gid": 1102
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 14,
+      "gid": 1103
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 7,
+      "gid": 1104
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 17,
+      "gid": 1105
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 28,
+      "gid": 1106
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 4,
+      "gid": 1107
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 29,
+      "gid": 1108
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 26,
+      "gid": 1109
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 15,
+      "gid": 1110
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 13,
+      "gid": 1111
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 28,
+      "gid": 1112
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 12,
+      "gid": 1113
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 7,
+      "gid": 1114
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 23,
+      "gid": 1115
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 9,
+      "gid": 1116
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 2,
+      "gid": 1117
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 11,
+      "gid": 1118
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 13,
+      "gid": 1119
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 14,
+      "gid": 1120
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 16,
+      "gid": 1121
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 10,
+      "gid": 1122
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 5,
+      "gid": 1123
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 20,
+      "gid": 1124
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 15,
+      "gid": 1125
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 24,
+      "gid": 1126
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 29,
+      "gid": 1127
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 13,
+      "gid": 1128
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 18,
+      "gid": 1129
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 2,
+      "gid": 1130
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 15,
+      "gid": 1131
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 3,
+      "gid": 1132
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 11,
+      "gid": 1133
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 24,
+      "gid": 1134
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 5,
+      "gid": 1135
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 25,
+      "gid": 1136
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 0,
+      "gid": 1137
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 9,
+      "gid": 1138
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 22,
+      "gid": 1139
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 28,
+      "gid": 1140
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 14,
+      "gid": 1141
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 15,
+      "gid": 1142
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 28,
+      "gid": 1143
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 17,
+      "gid": 1144
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 19,
+      "gid": 1145
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 23,
+      "gid": 1146
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 3,
+      "gid": 1147
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 5,
+      "gid": 1148
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 27,
+      "gid": 1149
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 21,
+      "gid": 1150
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 7,
+      "gid": 1151
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 29,
+      "gid": 1152
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 24,
+      "gid": 1153
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 2,
+      "gid": 1154
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 25,
+      "gid": 1155
+    },
+    {
+      "homeTid": 23,
+      "awayTid": 9,
+      "gid": 1156
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 26,
+      "gid": 1157
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 19,
+      "gid": 1158
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 14,
+      "gid": 1159
+    },
+    {
+      "homeTid": 12,
+      "awayTid": 8,
+      "gid": 1160
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 13,
+      "gid": 1161
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 2,
+      "gid": 1162
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 28,
+      "gid": 1163
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 15,
+      "gid": 1164
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 24,
+      "gid": 1165
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 11,
+      "gid": 1166
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 22,
+      "gid": 1167
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 4,
+      "gid": 1168
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 1,
+      "gid": 1169
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 7,
+      "gid": 1170
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 13,
+      "gid": 1171
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 23,
+      "gid": 1172
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 18,
+      "gid": 1173
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 12,
+      "gid": 1174
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 19,
+      "gid": 1175
+    },
+    {
+      "homeTid": 27,
+      "awayTid": 0,
+      "gid": 1176
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 21,
+      "gid": 1177
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 15,
+      "gid": 1178
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 25,
+      "gid": 1179
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 4,
+      "gid": 1180
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 24,
+      "gid": 1181
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 2,
+      "gid": 1182
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 28,
+      "gid": 1183
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 8,
+      "gid": 1184
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 7,
+      "gid": 1185
+    },
+    {
+      "homeTid": 18,
+      "awayTid": 0,
+      "gid": 1186
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 23,
+      "gid": 1187
+    },
+    {
+      "homeTid": 13,
+      "awayTid": 24,
+      "gid": 1188
+    },
+    {
+      "homeTid": 7,
+      "awayTid": 12,
+      "gid": 1189
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 14,
+      "gid": 1190
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 2,
+      "gid": 1191
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 5,
+      "gid": 1192
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 11,
+      "gid": 1193
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 29,
+      "gid": 1194
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 26,
+      "gid": 1195
+    },
+    {
+      "homeTid": 16,
+      "awayTid": 4,
+      "gid": 1196
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 22,
+      "gid": 1197
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 20,
+      "gid": 1198
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 6,
+      "gid": 1199
+    },
+    {
+      "homeTid": 9,
+      "awayTid": 27,
+      "gid": 1200
+    },
+    {
+      "homeTid": 10,
+      "awayTid": 13,
+      "gid": 1201
+    },
+    {
+      "homeTid": 17,
+      "awayTid": 9,
+      "gid": 1202
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 20,
+      "gid": 1203
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 23,
+      "gid": 1204
+    },
+    {
+      "homeTid": 28,
+      "awayTid": 12,
+      "gid": 1205
+    },
+    {
+      "homeTid": 22,
+      "awayTid": 27,
+      "gid": 1206
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 18,
+      "gid": 1207
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 16,
+      "gid": 1208
+    },
+    {
+      "homeTid": 2,
+      "awayTid": 6,
+      "gid": 1209
+    },
+    {
+      "homeTid": 8,
+      "awayTid": 4,
+      "gid": 1210
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 7,
+      "gid": 1211
+    },
+    {
+      "homeTid": 3,
+      "awayTid": 26,
+      "gid": 1212
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 21,
+      "gid": 1213
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 5,
+      "gid": 1214
+    },
+    {
+      "homeTid": 14,
+      "awayTid": 0,
+      "gid": 1215
+    },
+    {
+      "homeTid": 1,
+      "awayTid": 13,
+      "gid": 1216
+    },
+    {
+      "homeTid": 19,
+      "awayTid": 22,
+      "gid": 1217
+    },
+    {
+      "homeTid": 21,
+      "awayTid": 16,
+      "gid": 1218
+    },
+    {
+      "homeTid": 0,
+      "awayTid": 10,
+      "gid": 1219
+    },
+    {
+      "homeTid": 11,
+      "awayTid": 28,
+      "gid": 1220
+    },
+    {
+      "homeTid": 29,
+      "awayTid": 27,
+      "gid": 1221
+    },
+    {
+      "homeTid": 5,
+      "awayTid": 2,
+      "gid": 1222
+    },
+    {
+      "homeTid": 15,
+      "awayTid": 7,
+      "gid": 1223
+    },
+    {
+      "homeTid": 24,
+      "awayTid": 17,
+      "gid": 1224
+    },
+    {
+      "homeTid": 25,
+      "awayTid": 12,
+      "gid": 1225
+    },
+    {
+      "homeTid": 4,
+      "awayTid": 3,
+      "gid": 1226
+    },
+    {
+      "homeTid": 20,
+      "awayTid": 9,
+      "gid": 1227
+    },
+    {
+      "homeTid": 26,
+      "awayTid": 23,
+      "gid": 1228
+    },
+    {
+      "homeTid": 6,
+      "awayTid": 18,
+      "gid": 1229
     }
   ]
 }
